@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner {
+    height: auto;
+    text-align: center;
+    padding: 200px;
+    background-image: url("https://codeworkshop.dev/static/350e6cb1b81f18a6053b50450249a7da/8ec0a/ibiza_sunset.jpg");
+}
+
+button {
+    border-radius: 10px;
+    border: 0;
+    padding: 20px;
+}
