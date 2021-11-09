@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(39, 39, 39);
+    font-size: 100px;
+}
+
+.caixa {
+    height: 300px;
+    width: 300px;
+    background-color: beige;
+    border-radius: 20px;
+    text-align: center;
+    color: #1d1c1c;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    transition: 0.5s;
+    padding: 90px;
+}
+
+.c-01 {
+    height: 300px;
+    width: 300px;
+    background-color: cadetblue;
+}
+
+.c-02 {
+    height: 300px;
+    width: 300px;
+    background-color: coral;
+}
+
+.c-03 {
+    height: 300px;
+    width: 300px;
+    background-color: darkseagreen;
+}
+
+.caixa:hover {
+    background-color: white;
+}
+
+.c-propaganda {
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 7px;
+    border-radius: 25px;
+    position: fixed;
+    height: 50px;
+    right: 50px;
+    bottom: 20px;
+    background-color: blueviolet;
+}
+
+.c-propaganda:hover {
+    background-color: red;
+}

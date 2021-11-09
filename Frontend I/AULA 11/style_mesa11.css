@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(80, 80, 80);
+    position: relative;
+}
+
+.principal {
+    height: 200px;
+    width: 200px;
+    background-color: darkgoldenrod;
+    position: relative;
+    text-align: center;
+    padding: 25px 50px;
+}
+
+.secundaria {
+    background-color: darkolivegreen;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    text-align: center;
+}
+
+#cx-01 {
+    position: absolute;
+    top: 0px;
+}
+
+#cx-02 {
+    position: fixed;
+    padding: 40px 50px;
+    bottom: 0px;
+    left: 50%;
+}
+
+#cx-03 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
