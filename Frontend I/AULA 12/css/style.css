@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+body {
+    position: absolute;
+    background-color: white;
+    width: 100%;
+}
+
+.header {
+    margin-top: 0;
+}
+
+.menu-nav {
+    display: block;
+    margin-top: 0px;
+    position: fixed;
+    border-color: black;
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    /* border-radius: 10px; */
+}
+
+.img-nav {
+    margin-top: 10px;
+    height: 80px;
+}
+
+.links {
+    float: right;
+    padding-right: 10px;
+}
+
+.botao-nav {
+    margin-top: 20px;
+    margin-left: 20px;
+    float: right;
+    padding: 20px 40px;
+    background-color: cadetblue;
+    border-radius: 10px;
+}
+
+.main {
+    margin-top: 102px;
+}
+
+.img-head {
+    background-image: url(./../img/header.jpg);
+    background-position: center;
+    height: 300px;
+}
+
+.principal {
+    margin-top: 2px;
+    background-color: coral;
+}
+
+.flutuante {
+    position: fixed;
+    height: 80px;
+    width: 80px;
+    bottom: 20px;
+    right: 20px;
+    background-image: url(./../img/wpp.png);
+    background-position: center;
+    background-size: 80px;
+    border-radius: 40px;
+}
+
+.conteudo-esq {
+    background-color: aqua;
+}
+
+.conteudo-dir {
+    back
+}
