@@ -135,13 +135,13 @@ function cozinha(tempo_inserido, tempo_minimo, prato, ajuda) {
 }
 
 //Testes. Insira valores nas funções caso deseje.
-pipoca(22);
+pipoca();
 console.log("---");
-macarrao(18);
+macarrao();
 console.log("---");
-carne(32);
+carne();
 console.log("---");
-feijao(26);
+feijao();
 console.log("---");
-brigadeiro(18);
+brigadeiro();
 console.log("---");
