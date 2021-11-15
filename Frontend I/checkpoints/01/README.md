@@ -23,7 +23,7 @@ O objetivo é criar um site que vai falar da sua cidade. Para isso, utilize de t
 6. Abaixo do vídeo escreva o título: “Curiosidades” e logo abaixo faça uma pequena lista com algumas curiosidades da sua cidade.
 7. Utilize algum site de ícones para conseguir uma imagem do instagram e outra do youtube. Nesses ícones, faça o link com os canais oficiais da sua cidade, se não houver, coloque links do seu gosto.
 8. Aqui um exemplo no qual você pode se inspirar: [Clique aqui](https://htmlpreview.github.io/?https://github.com/davidigitalhouse/projeto02/blob/master/index.html)
-9. No formulário a seguir, insira seu nome, e a URL o repositório remoto do projeto ATÉ 15/11/2021 até 23:59. [Link do Formulário](https://docs.google.com/forms/d/e/1FAIpQLScYajDrRe_IrsjYvrJ6Bd4eahI3iMDEOH-knhq2C_DxKkuqhA/viewform)
+9. No formulário a seguir, insira seu nome, e a URL o repositório remoto do projeto ATÉ 15/11/2021 até 23:59. [Link do Formulário](#)
 
 ### Conclusão
 
