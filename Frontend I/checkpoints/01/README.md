@@ -1,4 +1,4 @@
-## Primeiro Checkpoint - Frontend 1
+## Primeiro Checkpoint: Front-end 1
 
 #### Digital House - Certified Tech Developer
 
