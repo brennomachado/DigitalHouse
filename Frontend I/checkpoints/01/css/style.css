@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url(https://www.wallpapertip.com/wmimgs/57-570153_sao-paulo-brazil-night.jpg);
+  background-image: url(./../img/sao-paulo-brazil-night.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
