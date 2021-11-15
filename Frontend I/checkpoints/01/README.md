@@ -4,6 +4,8 @@
 
 Aluno: Brenno Pereira Machado
 
+Página pode ser visualizada em: [brennomachado.com/dh/frontend1/checkpoint01](https://brennomachado.com/dh/frontend1/checkpoint01/)
+
 ---
 
 ## Objetivo
