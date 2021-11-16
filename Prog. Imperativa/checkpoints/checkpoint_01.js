@@ -1,32 +1,59 @@
 /* 
-Brenno Pereira Machado
-DATA 11/11/2021
-*/
+  Brenno Pereira Machado
+  DATA 11/11/2021
+  */
 /* CHECKPOINT 01 - Programação Funcional
-- Precisamos desenvolver um menu para um microondas super veloz, onde teremos 5 opções de comida com seus respectivos tempos pré-definidos. 
+  - Precisamos desenvolver um menu para um microondas super veloz, onde teremos 5 opções de comida com seus respectivos tempos pré-definidos. 
 
-      1 - Pipoca – 10 segundos (padrão);
-      2 - Macarrão – 8 segundos (padrão);
-      3 - Carne – 15 segundos (padrão);
-      4 - Feijão – 12 segundos (padrão);
-      5 - Brigadeiro – 8 segundos (padrão); 
+        1 - Pipoca – 10 segundos (padrão);
+        2 - Macarrão – 8 segundos (padrão);
+        3 - Carne – 15 segundos (padrão);
+        4 - Feijão – 12 segundos (padrão);
+        5 - Brigadeiro – 8 segundos (padrão); 
 
-- O usuário poderá alterar o tempo padrão, aumentando ou diminuindo de acordo com sua vontade. Se o tempo informado for maior que 2x o necessário, exibir mensagem que a comida queimou.
-- Se o tempo for menor que o padrão, exibir a mensagem: "tempo insuficiente"; 
-- Opções não listadas no menu, devem exibir uma mensagem de erro: "Prato inexistente";
-- Se o tempo for 3x maior que o necessário para o prato, o microondas deve exibir a mensagem: “kabumm”;
-- No final de cada tarefa, o microondas deverá exibir a mensagem: "Prato pronto, bom apetite!!!". 
-
+  - O usuário poderá alterar o tempo padrão, aumentando ou diminuindo de acordo com sua vontade. Se o tempo informado for maior que 2x o necessário, exibir mensagem que a comida queimou.
+  - Se o tempo for menor que o padrão, exibir a mensagem: "tempo insuficiente"; 
+  - Opções não listadas no menu, devem exibir uma mensagem de erro: "Prato inexistente";
+  - Se o tempo for 3x maior que o necessário para o prato, o microondas deve exibir a mensagem: “kabumm”;
+  - No final de cada tarefa, o microondas deverá exibir a mensagem: "Prato pronto, bom apetite!!!". 
 */
 
-/**
- *@function {pipoca} Pipoca recebe um argumento <tempo_inserido> em segundos e chama a função <cozinha> para preparar pipoca ou exibir menu de ajuda.
- * @param {number} tempo_inserido - tempo de preparo em segundos.
- * @print pipoca(tempo_inserido) - mensagem padrão de preparo.
- * @print pipoca() - o mesmo de pipoca(10)
- * @print pipoca("?") - Imprime um menu com informações.
- * @return Sempre retorna None.
- */
+/*   Inserir tempo com nome do prato ou número do prato
+      exemplo: microondas(10, pipoca) ou microondas(10, 1)*/
+microondas(15, "Pipoca");
+
+function microondas(tempo, opcao) {
+  if (typeof opcao == "string") {
+    opcao = opcao.toLowerCase();
+  }
+  switch (opcao) {
+    case "pipoca":
+    case 1:
+      pipoca(tempo);
+      break;
+
+    case "macarrão":
+    case 2:
+      macarrao(tempo);
+      break;
+
+    case "carne":
+    case 3:
+      carne(tempo);
+      break;
+    case "feijão":
+    case 4:
+      feijao(tempo);
+      break;
+    case "brigadeiro":
+    case 5:
+      brigadeiro(tempo);
+      break;
+    default:
+      console.log("Prato inexistente");
+  }
+}
+
 function pipoca(tempo_inserido = 10) {
   const tempo_ideal = 10;
   const ajuda = tempo_inserido == "?" ? true : false;
@@ -34,56 +61,24 @@ function pipoca(tempo_inserido = 10) {
   cozinha(tempo_inserido, tempo_ideal, "pipoca", ajuda);
 }
 
-/**
- *@function {macarrao} recebe um argumento <tempo_inserido> em segundos e chama a função <cozinha> para preparar macarrão ou exibir menu de ajuda.
- * @param {number} tempo_inserido - tempo de preparo em segundos.
- * @print macarrao(tempo_inserido) - mensagem padrão de preparo.
- * @print macarrao() - o mesmo de macarrao(8)
- * @print macarrao("?") - Imprime um menu com informações.
- * @return Sempre retorna None.
- */
 function macarrao(tempo_inserido = 8) {
   const tempo_ideal = 8;
   const ajuda = tempo_inserido == "?" ? true : false;
   cozinha(tempo_inserido, tempo_ideal, "macarrão", ajuda);
 }
 
-/**
- *@function {carne} carne recebe um argumento <tempo_inserido> em segundos e chama a função <cozinha> para preparar carne ou exibir menu de ajuda.
- * @param {number} tempo_inserido - tempo de preparo em segundos.
- * @print carne(tempo_inserido) - mensagem padrão de preparo.
- * @print carne() - o mesmo de carne(15)
- * @print carne("?") - Imprime um menu com informações.
- * @return Sempre retorna None.
- */
 function carne(tempo_inserido = 15) {
   const tempo_ideal = 15;
   const ajuda = tempo_inserido == "?" ? true : false;
   cozinha(tempo_inserido, tempo_ideal, "carne", ajuda);
 }
 
-/**
- *@function {feijao} feijao recebe um argumento <tempo_inserido> em segundos e chama a função <cozinha> para preparar feijao ou exibir menu de ajuda.
- * @param {number} tempo_inserido - tempo de preparo em segundos.
- * @print feijao(tempo_inserido) - mensagem padrão de preparo.
- * @print feijao() - o mesmo de feijao(12)
- * @print feijao("?") - Imprime um menu com informações.
- * @return Sempre retorna None.
- */
 function feijao(tempo_inserido = 12) {
   const tempo_ideal = 12;
   const ajuda = tempo_inserido == "?" ? true : false;
   cozinha(tempo_inserido, tempo_ideal, "feijão", ajuda);
 }
 
-/**
- *@function {brigadeiro} brigadeiro recebe um argumento <tempo_inserido> em segundos e chama a função <cozinha> para preparar brigadeiro ou exibir menu de ajuda.
- * @param {number} tempo_inserido - tempo de preparo em segundos.
- * @print brigadeiro(tempo_inserido) - mensagem padrão de preparo.
- * @print brigadeiro() - o mesmo de brigadeiro(8)
- * @print brigadeiro("?") - Imprime um menu com informações.
- * @return Sempre retorna None.
- */
 function brigadeiro(tempo_inserido = 8) {
   const tempo_ideal = 8;
   const ajuda = tempo_inserido == "?" ? true : false;
@@ -133,15 +128,3 @@ function cozinha(tempo_inserido, tempo_minimo, prato, ajuda) {
     }
   }
 }
-
-//Testes. Insira valores nas funções caso deseje.
-pipoca();
-console.log("---");
-macarrao();
-console.log("---");
-carne();
-console.log("---");
-feijao();
-console.log("---");
-brigadeiro();
-console.log("---");
