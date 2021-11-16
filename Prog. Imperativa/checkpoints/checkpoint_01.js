@@ -19,10 +19,12 @@
 */
 
 /*   Inserir tempo com nome do prato ou número do prato
-      exemplo: microondas(10, pipoca) ou microondas(10, 1)*/
-microondas(15, "Pipoca");
+      exemplo: microondas(pipoca,10) ou microondas(1,10)
+      para ajuda insira apenas "?" desta forma: microondas("?")*/
+microondas("pipoca", 20);
 
-function microondas(tempo, opcao) {
+//FUNÇÕES USADAS PARA RESOLVER O PROBLEMA
+function microondas(opcao, tempo) {
   if (typeof opcao == "string") {
     opcao = opcao.toLowerCase();
   }
@@ -41,14 +43,21 @@ function microondas(tempo, opcao) {
     case 3:
       carne(tempo);
       break;
+
     case "feijão":
     case 4:
       feijao(tempo);
       break;
+
     case "brigadeiro":
     case 5:
       brigadeiro(tempo);
       break;
+
+    case "?":
+      cozinha(0, 0, 0, true);
+      break;
+
     default:
       console.log("Prato inexistente");
   }
@@ -56,45 +65,44 @@ function microondas(tempo, opcao) {
 
 function pipoca(tempo_inserido = 10) {
   const tempo_ideal = 10;
-  const ajuda = tempo_inserido == "?" ? true : false;
-
-  cozinha(tempo_inserido, tempo_ideal, "pipoca", ajuda);
+  cozinha(tempo_inserido, tempo_ideal, "pipoca");
 }
 
 function macarrao(tempo_inserido = 8) {
   const tempo_ideal = 8;
-  const ajuda = tempo_inserido == "?" ? true : false;
-  cozinha(tempo_inserido, tempo_ideal, "macarrão", ajuda);
+  cozinha(tempo_inserido, tempo_ideal, "macarrão");
 }
 
 function carne(tempo_inserido = 15) {
   const tempo_ideal = 15;
-  const ajuda = tempo_inserido == "?" ? true : false;
-  cozinha(tempo_inserido, tempo_ideal, "carne", ajuda);
+  cozinha(tempo_inserido, tempo_ideal, "carne");
 }
 
 function feijao(tempo_inserido = 12) {
   const tempo_ideal = 12;
-  const ajuda = tempo_inserido == "?" ? true : false;
-  cozinha(tempo_inserido, tempo_ideal, "feijão", ajuda);
+  cozinha(tempo_inserido, tempo_ideal, "feijão");
 }
 
 function brigadeiro(tempo_inserido = 8) {
   const tempo_ideal = 8;
-  const ajuda = tempo_inserido == "?" ? true : false;
-  cozinha(tempo_inserido, tempo_ideal, "brigadeiro", ajuda);
+  cozinha(tempo_inserido, tempo_ideal, "brigadeiro");
 }
 
-function cozinha(tempo_inserido, tempo_minimo, prato, ajuda) {
+function cozinha(tempo_inserido, tempo_minimo, prato, ajuda = false) {
   if (ajuda == true) {
-    console.log(`\nO tempo mínimo para preparo de ${prato} é ${tempo_minimo}s`);
+    console.log(`MENU DE OPÇÕES`);
+    console.log(`  1 - Pipoca – 10 segundos (padrão);
+  2 - Macarrão – 8 segundos (padrão);
+  3 - Carne – 15 segundos (padrão);
+  4 - Feijão – 12 segundos (padrão);
+  5 - Brigadeiro – 8 segundos (padrão);`);
     console.log(
-      `\n    ATENÇÃO!      - Se você inserir o dobro desse tempo (${
+      `\n  ATENÇÃO!      - Se você inserir o dobro desse tempo (${
         2 * tempo_minimo
       }s), você irá queimar seu prato de ${prato}.`
     );
     console.log(
-      `    ATENÇÃO!!!!!! - NUNCA INSIRA O TRIPLO DO TEMPO MÍNIMO (${
+      `  ATENÇÃO!!!!!! - NUNCA INSIRA O TRIPLO DO TEMPO MÍNIMO (${
         3 * tempo_minimo
       }s), PERIGO DE EXPLOSÃO!\n`
     );
