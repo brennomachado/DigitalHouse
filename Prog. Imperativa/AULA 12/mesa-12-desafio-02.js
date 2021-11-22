@@ -8,7 +8,6 @@ você deve exibir a string &quot;House&quot; em vez disso.
 deve exibir a string &quot;Digital House&quot; em vez do número. */
 
 function digitalHouse(a, b) {
-  console.log("oi");
   for (let i = 1; i < 101; i++) {
     let divisivel_por_a = i % a;
     let divisivel_por_b = i % b;
