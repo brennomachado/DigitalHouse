@@ -34,4 +34,10 @@ function Aluno(nome, num, num_arquivo, notas = []) {
 let alunos = [new Aluno("Brenno", 01, 01, [10, 7, 5, 10, 8])];
 
 console.log(alunos[0]);
+// Se a média mínima é 9
+console.log("Aprovação com média mínima 9");
 console.log(alunos[0].calcula_aprovacao(9));
+
+// Se a média mínima é 5
+console.log("Aprovação com média mínima 5");
+console.log(alunos[0].calcula_aprovacao());
