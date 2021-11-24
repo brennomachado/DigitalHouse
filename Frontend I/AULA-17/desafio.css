@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 400px;
+  background-color: gainsboro;
+}
+
+.bolinha {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  border-radius: 50%;
+  animation: freia-bolinha 1s ease-in-out infinite alternate;
+}
+
+@keyframes freia-bolinha {
+  0% {
+    transform: translateX(-500px);
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    transform: translateX(300px);
+    opacity: 1;
+  }
+}
