@@ -28,6 +28,7 @@ header {
 .content {
   color: whitesmoke;
   padding: 20px 5%;
+  background-color: rgba(0, 0, 0, 0.85);
   /* text-align: justify;
   background-color: rgba(240, 248, 255, 0.103); */
 }
