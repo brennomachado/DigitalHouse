@@ -80,7 +80,7 @@ Aqui você irá encontrar alguns códigos e rascunhos que fiz em cada disciplina
 
 - **Frontend I: Checkpoint 01** - Página com vídeo e algumas curiosidades da cidade São Paulo:
 <p align="center">
-  <a href="https://brennomachado.github.io/DigitalHouse/checkpoints/CP-02-Frontend-I/01/"><img height="200" src="checkpoints/imgs/capa-frontend1-cp-01.png"></a>
+  <a href="https://brennomachado.github.io/DigitalHouse/checkpoints/CP-02-Frontend-I/01/" target="_blank"><img height="200" src="checkpoints/imgs/capa-frontend1-cp-01.png"></a>
 </p>
 
 ---
