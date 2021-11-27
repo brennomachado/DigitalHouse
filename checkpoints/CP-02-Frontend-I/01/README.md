@@ -4,7 +4,7 @@
 
 Aluno: Brenno Pereira Machado
 
-Página pode ser visualizada em: [brennomachado.com/dh/frontend1/checkpoint01](https://brennomachado.com/dh/frontend1/checkpoint01/)
+A página pode ser visualizada em: [https://brennomachado.github.io/DigitalHouse/checkpoints/CP-02-Frontend-I/01/](https://brennomachado.github.io/DigitalHouse/checkpoints/CP-02-Frontend-I/01/)
 
 ---
 
