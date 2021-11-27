@@ -1,10 +1,14 @@
-## Primeiro Checkpoint: Front-end 1
+## Primeiro Checkpoint: Front-end I
 
-#### Digital House - Certified Tech Developer
+#### [Digital House - Certified Tech Developer](https://brennomachado.github.io/DigitalHouse/)
 
 Aluno: Brenno Pereira Machado
 
 A página pode ser visualizada em: [https://brennomachado.github.io/DigitalHouse/checkpoints/CP-02-Frontend-I/01/](https://brennomachado.github.io/DigitalHouse/checkpoints/CP-02-Frontend-I/01/)
+
+<div>
+<p align="center"><a  href="https://brennomachado.github.io/DigitalHouse/checkpoints/CP-02-Frontend-I/01/" target="_blank"><img height="400" src="../../imgs/capa-frontend1-cp-01.png"></a></p>
+</div>
 
 ---
 
@@ -28,3 +32,5 @@ O objetivo é criar um site que vai falar da sua cidade. Para isso, utilize de t
 ### Conclusão
 
 Parabéns! Você acaba de finalizar o primeiro checkpoint de frontend!
+
+---
