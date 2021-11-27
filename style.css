@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+}
+
+.container {
+  margin: 20px 10% 0 10%;
+}
+
+h1 {
+  border-bottom: 2px solid;
+  border-color: lightgrey;
+  margin-bottom: 25px;
+}
+
+ul {
+  margin-left: 25px;
+  margin-bottom: 25px;
+}
+
+li>p {
+  margin-bottom: 10px;
+}
+
+.separador {
+  background-color: black;
+  height: 2px;
+  margin: 30px 0;
+}
+
+h3 {
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.grade {
+  display: grid;
+  grid-template-columns: 50px 1fr 1fr 1fr;
+  /* grid-template-rows: 1fr 1fr 1fr; */
+  grid-template-areas: "a a a a" "b c c c" "b c c c";
+  width: 50%;
+}
+
+.ano {
+  grid-area: a;
+  text-align: center;
+  font-weight: bold;
+  padding: 5px 0;
+  text-transform: uppercase;
+  border-top: 1px solid lightgray;
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+}
+
+.bimestre {
+  /* grid-area: bimestre; */
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid lightgrey;
+  padding: 10px 0;
+}
+
+
+/* .bimestre:nth-child(2) {
+  border-bottom: 0;
+  border-right: 0;
+} */
+
+.bimestre:nth-child(2) {
+  border-bottom: 0;
+}
+
+.bimestre:nth-child(2),
+.bimestre:nth-child(6) {
+  border-right: 0;
+  /* background-color: red; */
+}
+
+.bloco {
+  border: 1px solid lightgrey;
+  padding-left: 8px;
+  background-color: #f1f1f1;
+  padding: 10px 0px 10px 5px;
+}
+
+.bloco:nth-child(n+1):nth-child(-n+5) {
+  border-bottom: 0;
+}
+
+.bloco:nth-child(4),
+.bloco:nth-child(8) {
+  border-right: 0;
+  border-left: 0;
+  /* background-color: red; */
+}
+
+img {
+  height: 200px;
+  margin-left: 20px;
+}
+
+a.link-repo {
+  color: black;
+  font-weight: bold;
+}
+
+a.link-repo:link {
+  text-decoration: none;
+}
+
+a.link-repo:hover {
+  text-decoration: underline;
+}

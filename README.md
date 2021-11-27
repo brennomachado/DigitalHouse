@@ -3,9 +3,10 @@
 - 📑 [Github Profile](https://github.com/brennomachado/)
 - 📠 [Linkedin](https://www.linkedin.com/in/brennomachado/)
 
-### \# Esse é meu repositório para atividades do curso da Digital House
+### \# Esse é meu repositório para atividades do curso "Certified Tech Developer" da Digital House
 
-Aqui você irá encontrar alguns códigos e rascunhos que fiz em cada disciplina, aula e também a exposição de alguns projetos feito nas mesmas... irei destacar os que eu gostar. ;)
+O [CTD](https://www.digitalhouse.com/br/acoes/certified-tech-developer) é um curso de “Tech Degree” para formação profissional na área de web development, com front e back-end. Organizado [Mercado Livre](https://www.mercadolivre.com.br/) e pela [Globant](https://www.globant.com/pt-br) ministrado pela [Digital House](https://www.digitalhouse.com/br).
+Aqui você irá encontrar alguns códigos e rascunhos que fiz em cada disciplina e também a exposição de alguns projetos feito nas mesmas... irei destacar os que eu gostar. ;)
 
 ---
 
@@ -18,9 +19,9 @@ Aqui você irá encontrar alguns códigos e rascunhos que fiz em cada disciplina
         </tr>
         <tr>
           <th bgcolor="eaeaea">1.B</th>
-          <td bgcolor="eaeaea">Programação  Imperativa ⏳</td>
-          <td bgcolor="eaeaea">Frontend I: Layout ⏳</td>
-          <td bgcolor="eaeaea">Learn Agility ⏳</td>
+          <td bgcolor="eaeaea"><a href="https://github.com/brennomachado/DigitalHouse/tree/main/Prog.%20Imperativa" target="_blank">Programação  Imperativa</a> ⏳</td>
+          <td bgcolor="eaeaea"><a href="https://github.com/brennomachado/DigitalHouse/tree/main/Frontend%20I" target="_blank">Frontend I: Layout</a> ⏳</td>
+          <td bgcolor="eaeaea">Metodologias Ágeis ⏳</td>
         </tr>
         <tr>
           <th bgcolor="f1f1f1">2.B</th>
