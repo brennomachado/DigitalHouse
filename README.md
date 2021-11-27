@@ -78,8 +78,8 @@ Aqui você irá encontrar alguns códigos e rascunhos que fiz em cada disciplina
 #### Projetinhos que fiz durante o curso para aprendizado:
 
 - **Frontend I: Checkpoint 01** - Página com vídeo e algumas curiosidades da cidade São Paulo:
-<div style="text-align: center">
+<p align="center">
   <img height="200" src="checkpoints/imgs/capa-frontend1-cp-01.png">
-</div>
+</p>
 
 ---
