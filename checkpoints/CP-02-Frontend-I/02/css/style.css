@@ -30,7 +30,7 @@ header {
   margin: 15px 5%;
   color: whitesmoke;
   border-radius: 10px;
-  min-width: 320px;
+  min-width: 340px;
 }
 
 .titulos-secundarios {
@@ -45,10 +45,17 @@ header {
   width: 80%;
   margin-right: auto;
   margin-left: auto;
+  /* min-width: 340px; */
 }
 
 form {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 50%;
+  min-width: 270px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .form-nome,
@@ -60,9 +67,44 @@ form {
 .form-interesses,
 .form-btn {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
+.form-radio,
+.form-interesses {
+  justify-content: left;
+}
+
+.lb {
+  white-space: nowrap;
+}
+
+.lb,
+.form-radio,
+.form-interesses {
+  font-weight: bold;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+.box {
+  width: 100%;
+  max-width: auto;
+}
+
+.box input {
+  width: 100%;
+  /* min-width: 125px; */
+  max-width: auto;
+}
+
+.box-telefone-inp {
+  max-width: 174px;
+}
+
+.box-dtnasc-inp {
+  max-width: 129px;
+}
 
 /* ### FOOTER ### */
 
@@ -71,6 +113,6 @@ form {
   margin: 40px;
 }
 
-.social>a:link {
+.social > a:link {
   margin: 20px;
 }
