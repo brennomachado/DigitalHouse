@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Manjari:wght@100&family=Petit+Formal+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manjari:wght@100&family=Petit+Formal+Script&family=Roboto&display=swap");
 * {
   margin: 0px;
   padding: 0px;
@@ -37,7 +37,8 @@ header {
 .titulos-secundarios {
   text-align: center;
   font-size: 40px;
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
+  font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
 }
@@ -48,6 +49,7 @@ header {
   width: 80%;
   margin-right: auto;
   margin-left: auto;
+  font-family: "Roboto", sans-serif;
 }
 
 form {
@@ -85,7 +87,7 @@ form {
 .form-radio,
 .form-interesses {
   font-weight: bold;
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
   text-transform: uppercase;
 }
 
