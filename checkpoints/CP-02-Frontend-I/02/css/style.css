@@ -9,6 +9,7 @@ body {
   background-image: url(./../img/sao-paulo-brazil-night.jpg);
   background-size: cover;
   background-attachment: fixed;
+  min-width: 380px;
 }
 
 header {
@@ -104,6 +105,10 @@ form {
 
 .box-dtnasc-inp {
   max-width: 129px;
+}
+
+.opcoes-chk {
+  white-space: nowrap;
 }
 
 /* ### FOOTER ### */
