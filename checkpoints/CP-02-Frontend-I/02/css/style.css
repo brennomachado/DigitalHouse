@@ -42,11 +42,12 @@ header {
   letter-spacing: 3px;
 }
 
+/* ### Organização do formulário, responsividade ### */
+
 .container-form {
   width: 80%;
   margin-right: auto;
   margin-left: auto;
-  /* min-width: 340px; */
 }
 
 form {
@@ -57,6 +58,7 @@ form {
   min-width: 270px;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 10px;
 }
 
 .form-nome,
@@ -68,7 +70,6 @@ form {
 .form-interesses,
 .form-btn {
   display: flex;
-  /* justify-content: center; */
 }
 
 .form-radio,
@@ -109,6 +110,122 @@ form {
 
 .opcoes-chk {
   white-space: nowrap;
+}
+
+/* ### Cores e mudança de aparência nos forms ### */
+
+.form-nome,
+.form-email,
+.form-telefone,
+.form-dtnasc,
+.form-radio,
+.form-local,
+.form-interesses {
+  margin-bottom: 10px;
+  color: black;
+  border-radius: 4px;
+}
+
+.form-nome,
+.form-email,
+.box-telefone-inp {
+  /* Maldito Chrome D: */
+  background-color: whitesmoke;
+  border-radius: 4px;
+}
+
+.box-telefone-inp {
+  /* Maldito Chrome D: */
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.form-telefone,
+.form-dtnasc,
+.form-radio,
+.form-local,
+.form-interesses {
+  background-color: transparent;
+}
+
+.lb,
+.lb-radio,
+.lb-interesses {
+  padding-left: 6px;
+  padding-right: 8px;
+  color: black;
+  line-height: 34px;
+  background-color: whitesmoke;
+  border-radius: 4px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.box input,
+.opcoes-chk,
+.opcoes-radio,
+.box-local-inp select {
+  border: 1px solid whitesmoke;
+  border-radius: 4px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 8px 6px;
+  background-color: whitesmoke;
+  font-weight: normal;
+}
+
+.form-btn {
+  align-items: center;
+  justify-content: flex-start;
+  gap: 80px;
+}
+
+.btn {
+  color: whitesmoke;
+  font-weight: bold;
+  text-transform: capitalize;
+  background-color: transparent;
+  border: 0;
+  padding: 10px 20px;
+  background-color: brown;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.btn-reset {
+  color: dimgray;
+  background-color: rgb(185, 185, 185);
+  /* margin-left: 50px; */
+  padding: 8px 15px;
+}
+
+/* ### ANIMAÇÕES no formulário ### */
+
+.form-nome,
+.form-email,
+.form-telefone,
+.form-dtnasc,
+.form-radio,
+.form-local,
+.form-interesses,
+.reset,
+.send {
+  transition: transform 0.2s;
+}
+
+.form-nome:hover,
+.form-email:hover,
+.form-telefone:hover,
+.form-dtnasc:hover,
+.form-radio:hover,
+.form-local:hover,
+.form-interesses:hover,
+.reset:hover {
+  transform: scale(1.06);
+}
+
+.send:hover {
+  transform: scale(1.2);
 }
 
 /* ### FOOTER ### */
