@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
+
+  <script>
+    $("#telefone").mask("(00) 00000-0000");
+  </script>
+
+  <title>Cidade de São Paulo</title>
+</head>
+
+<body>
+  <!-- 
+Nome
+email
+telefone
+data
+maior ou menor
+3 pontos de interesse (menu dropdown)
+Turista, Residente, Estudante (checkbox)
+botão enviar
+botão resetar
+-->
+  <header>
+    <h1 class="titulo">São Paulo</h1>
+  </header>
+
+  <main>
+    <div class="agende">
+      <h2 class="titulos-secundarios">Agende uma visita</h2>
+    </div>
+    <div class="agende container-form">
+      <form action="#" method="post">
+        <!-- NOME -->
+        <div class="form-nome">
+          <div class="lb">
+            <label for="nome">Nome:</label>
+          </div>
+          <div class="box box-name-inp">
+            <input type="text" id="nome" name="user_nome" />
+          </div>
+        </div>
+        <!--         -->
+
+        <!-- EMAIL -->
+        <div class="form-email">
+          <div class="lb">
+            <label for="email">E-mail:</label>
+          </div>
+          <div class="box box-email-inp">
+            <input type="text" id="email" name="user_email" />
+          </div>
+        </div>
+        <!--         -->
+
+        <!-- TELEFONE -->
+        <div class="form-telefone">
+          <div class="lb">
+            <label for="telefone">Telefone:</label>
+          </div>
+          <div class="box box-telefone-inp">
+            <input type="text" id="telefone" name="user_telefone" data-inputmask="'alias': 'cel'" />
+          </div>
+        </div>
+        <!--         -->
+
+        <!-- DT NASC -->
+        <div class="form-dtnasc">
+          <div class="lb">
+            <label for="data-nasc">Data de Nasc.</label>
+          </div>
+          <div class="box box-dtnasc-inp">
+            <input type="date" id="data-nasc" name="user_data-nasc" />
+          </div>
+        </div>
+        <!--         -->
+
+        <!-- RADIO -->
+        <div class="form-radio">
+          <p>Selcione:</p>
+
+          <div class="opcoes-radio">
+            <div class="radio radio1">
+              <input type="radio" id="radio1" name="radio" value="OPCAO1" checked />
+              <label for="radio1">Radio 1</label>
+            </div>
+
+            <div class="radio radio2">
+              <input type="radio" id="radio2" name="radio" value="OPCAO2" />
+              <label for="radio2">Radio 2</label>
+            </div>
+          </div>
+        </div>
+        <!--         -->
+
+        <!-- LOCAL -->
+        <div class="form-local">
+          <div class="lb lb-local">
+            <label for="local-visita">Local de visita:</label>
+          </div>
+          <div class="box box-local-inp">
+            <select id="local-visita" name="local-visita">
+                <option value=" ">Seleciona uma opção</option>
+                <option value="ibirapuera ">Parque Ibirapuera</option>
+                <option value="paulista ">Avenina Paulista</option>
+                <option value="mercado ">Mercado Municipal</option>
+              </select>
+          </div>
+        </div>
+        <!--         -->
+
+        <!-- INTERESSE -->
+        <div class="form-interesses">
+          <p>Interesses na cidade</p>
+          <div class="opcoes-chk">
+            <div class="chk chk1">
+              <input type="checkbox" id="turistico" name="interesse" value="turismo" />
+              <label for="turistico">Turístico</label>
+            </div>
+            <div class="chk chk2">
+              <input type="checkbox" id="estudos" name="interesse" value="estudo" />
+              <label for="estudos">Estudos</label>
+            </div>
+            <div class="chk chk3">
+              <input type="checkbox" id="residencia" name="interesse" value="residencia" />
+              <label for="residencia">Residência</label>
+            </div>
+          </div>
+        </div>
+        <!--         -->
+
+        <!-- BOTÕES -->
+        <div class="form-btn">
+          <div>
+            <button type="submit" class="btn btn-send">Enviar</button>
+          </div>
+          <div>
+            <button type="reset" class="btn btn-reset">resetar</button>
+          </div>
+        </div>
+        <!--         -->
+      </form>
+    </div>
+  </main>
+  <footer>
+    <div class="social">
+      <a href="https://www.youtube.com/user/prefeiturasaopaulo ">
+        <img height="75" src="./img/youtube.png " alt="Logo do YouTube" /></a>
+      <a href="https://www.instagram.com/prefsp/ ">
+        <img height="75" src="./img/instagram2.png " alt="Logo do Instagram" /></a>
+    </div>
+  </footer>
+</body>
+
+</html>

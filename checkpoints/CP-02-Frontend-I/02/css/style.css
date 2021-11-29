@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Manjari:wght@100&family=Petit+Formal+Script&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./../img/sao-paulo-brazil-night.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header {
+  padding: 15px 0;
+  background-color: brown;
+  color: antiquewhite;
+}
+
+.titulo {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Petit Formal Script", cursive;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.agende {
+  background-color: rgba(0, 0, 0, 0.85);
+  margin: 15px 5%;
+  color: whitesmoke;
+  border-radius: 10px;
+  min-width: 320px;
+}
+
+.titulos-secundarios {
+  text-align: center;
+  font-size: 40px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.container-form {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+form {
+  text-align: center;
+}
+
+.form-nome,
+.form-email,
+.form-telefone,
+.form-dtnasc,
+.form-radio,
+.form-local,
+.form-interesses,
+.form-btn {
+  display: flex;
+  justify-content: center;
+}
+
+
+/* ### FOOTER ### */
+
+.social {
+  text-align: center;
+  margin: 40px;
+}
+
+.social>a:link {
+  margin: 20px;
+}
