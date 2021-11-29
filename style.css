@@ -26,7 +26,7 @@ ul {
   margin-bottom: 25px;
 }
 
-li>p {
+li > p {
   margin-bottom: 10px;
 }
 
@@ -70,7 +70,6 @@ h3 {
   background-color: white;
 }
 
-
 /* .bimestre:nth-child(2) {
   border-bottom: 0;
   border-right: 0;
@@ -93,7 +92,7 @@ h3 {
   padding: 10px 0px 10px 5px;
 }
 
-.bloco:nth-child(n+1):nth-child(-n+5) {
+.bloco:nth-child(n + 1):nth-child(-n + 5) {
   border-bottom: 0;
 }
 
@@ -120,4 +119,8 @@ a.link-repo:link {
 
 a.link-repo:hover {
   text-decoration: underline;
+}
+
+li {
+  margin-bottom: 15px;
 }
