@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+/* font-family: 'Big Shoulders Display', cursive;
+
+font-family: 'Lexend Deca', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  background-color: hsl(0, 0%, 95%);
+  /* Mobile */
+  /* margin: 100px 20px; */
+  display: flex;
+  justify-content: center;
+  transition: 0.5s;
+  min-width: 300px;
+}
+
+main {
+  margin: 100px 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  transition: margin 0.5s;
+  overflow: hidden;
+  align-items: stretch;
+  align-content: center;
+  /* mix-width: 400px; */
+  /* min-width: 375px; */
+}
+
+@media (min-width: 1440px) {
+  main {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    margin-right: 15%;
+    margin-left: 15%;
+    transition: main 0.5s;
+    /* overflow: hidden; */
+    /* max-width: auto; */
+    /* max-width: auto; */
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: nowrap; */
+    align-items: flex-start;
+    /* min-height: 500px; */
+    transition: 0.5s;
+  }
+}
+
+img {
+  width: 60px;
+}
+
+h2 {
+  font-family: "Big Shoulders Display", cursive;
+  color: hsl(0, 0%, 95%);
+  padding-top: 30px;
+  /* font-weight: 700; */
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.card-sedan {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.card-sedan a {
+  color: hsl(31, 77%, 52%);
+}
+
+.card-suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.card-suvs a {
+  color: hsl(184, 100%, 22%);
+}
+
+.card-luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.card-luxury a {
+  color: hsl(179, 100%, 13%);
+}
+
+.card {
+  /* Mobile */
+  padding: 40px;
+  /* display: flex;
+  flex-direction: column;
+  align-items: flex-start; */
+  transition: 0.5s;
+  /* min-width: 300px; */
+  /* min-height: 400px; */
+}
+
+.descricao {
+  padding: 20px 20px 20px 0px;
+  margin-bottom: 10px;
+  /* max-width: 300px; */
+}
+
+.botao {
+  margin-top: 15px;
+  background-color: hsl(0, 0%, 95%);
+  padding: 12px;
+  border-radius: 22px;
+  text-decoration: none;
+}
