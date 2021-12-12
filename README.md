@@ -78,14 +78,14 @@ Aqui você irá encontrar alguns códigos e rascunhos que fiz em cada disciplina
 
 #### Projetinhos que fiz durante o curso para aprendizado:
 
-- **Frontend I: Checkpoint 01** - Página com vídeo e algumas curiosidades da cidade São Paulo: [Repositório](https://github.com/brennomachado/DigitalHouse/tree/main/checkpoints/CP-02-Frontend-I/01) | [Página de Vizualização](https://brennomachado.github.io/DigitalHouse/checkpoints/CP-02-Frontend-I/01/)
+- **Frontend I: Checkpoint 01** - Página com vídeo e algumas curiosidades da cidade São Paulo: [Repositório](https://github.com/brennomachado/DigitalHouse/tree/main/checkpoints/Frontend-I/01) | [Página de Vizualização](https://brennomachado.github.io/DigitalHouse/checkpoints/Frontend-I/01/)
 <p align="center">
-  <a target="_blank" href="https://brennomachado.github.io/DigitalHouse/checkpoints/CP-02-Frontend-I/01/"><img height="200" src="checkpoints/imgs/capa-frontend1-cp-01.png"></a>
+  <a target="_blank" href="https://brennomachado.github.io/DigitalHouse/checkpoints/Frontend-I/01/"><img height="200" src="checkpoints/imgs/capa-frontend1-cp-01.png"></a>
 </p>
 
-- **Frontend I: Checkpoint 02** - Página com formulário com mesma identidade do checkpoint 1: [Repositório](https://github.com/brennomachado/DigitalHouse/tree/main/checkpoints/CP-02-Frontend-I/02) | [Página de Vizualização](https://brennomachado.github.io/DigitalHouse/checkpoints/CP-02-Frontend-I/02/)
+- **Frontend I: Checkpoint 02** - Página com formulário com mesma identidade do checkpoint 1: [Repositório](https://github.com/brennomachado/DigitalHouse/tree/main/checkpoints/Frontend-I/02) | [Página de Vizualização](https://brennomachado.github.io/DigitalHouse/checkpoints/Frontend-I/02/)
 <p align="center">
-  <a target="_blank" href="https://brennomachado.github.io/DigitalHouse/checkpoints/CP-02-Frontend-I/02/"><img height="200" src="checkpoints/imgs/capa-frontend1-cp-02.png"></a>
+  <a target="_blank" href="https://brennomachado.github.io/DigitalHouse/checkpoints/Frontend-I/02/"><img height="200" src="checkpoints/imgs/capa-frontend1-cp-02.png"></a>
 </p>
 
 ---
