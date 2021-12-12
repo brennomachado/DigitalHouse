@@ -4,10 +4,10 @@
 
 Aluno: Brenno Pereira Machado
 
-A página pode ser visualizada em: [https://brennomachado.github.io/DigitalHouse/checkpoints/CP-02-Frontend-I/01/](https://brennomachado.github.io/DigitalHouse/checkpoints/CP-02-Frontend-I/01/)
+A página pode ser visualizada em: [https://brennomachado.github.io/DigitalHouse/checkpoints/Frontend-I/01/](https://brennomachado.github.io/DigitalHouse/checkpoints/Frontend-I/01/)
 
 <div>
-<p align="center"><a  href="https://brennomachado.github.io/DigitalHouse/checkpoints/CP-02-Frontend-I/01/" target="_blank"><img height="400" src="../../imgs/capa-frontend1-cp-01.png"></a></p>
+<p align="center"><a  href="https://brennomachado.github.io/DigitalHouse/checkpoints/Frontend-I/01/" target="_blank"><img height="400" src="../../imgs/capa-frontend1-cp-01.png"></a></p>
 </div>
 
 ---
