@@ -1,0 +1,76 @@
+/**********************/
+/*       GERAL       */
+/********************/
+
+html {
+  scroll-behavior: smooth;
+}
+
+/**********************/
+/*        HOME       */
+/********************/
+
+/*Definindo tamanho e background do banner*/
+.masthead-home {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url("../image/bgHome.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/*Removendo a borda padrãp do botão */
+.navbar-toggler {
+  border: none !important;
+}
+
+/*Efeito no botão do banner*/
+.btn-outline-success {
+  background-color: rgba(25, 135, 84, 0.144);
+  color: #fff;
+  border-radius: 10px;
+}
+/*Background para a seção dos cards*/
+.bg-section {
+  background-color: #010101;
+  padding-bottom: 15vh;
+}
+
+/*animação nos*/
+.zoom {
+  transition: 0.5s;
+}
+
+.zoom:hover {
+  transform: scale(1.02); /* (150% zoom)*/
+}
+
+/*Foçando um espaçamento para "empurrar" a seção de itens*/
+#itens {
+  padding-top: 15vh !important;
+}
+
+/* Para alinhamento do footer - se remover ficar bagunçado */
+@media (max-width: 992px) {
+  .info-footer {
+    text-align: left !important;
+  }
+}
+
+/**********************/
+/*       SOBRE       */
+/********************/
+
+/*Definindo tamanho e background do banner na página sobre*/
+
+.masthead-sobre {
+  height: 70vh;
+  min-height: 500px;
+  background-image: url("../image/img_film.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
