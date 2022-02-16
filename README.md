@@ -6,7 +6,9 @@
 ### \# Esse é meu repositório para atividades do curso "Certified Tech Developer" da Digital House
 
 O [CTD](https://www.digitalhouse.com/br/acoes/certified-tech-developer) é um curso de “Tech Degree” para formação profissional na área de web development, com front e back-end. Organizado [Mercado Livre](https://www.mercadolivre.com.br/) e pela [Globant](https://www.globant.com/pt-br) ministrado pela [Digital House](https://www.digitalhouse.com/br).
+
 Iniciei o curso em __out/2021__ e a previsão para o término é em __set/2023__. Tem muita coisa pela frente e por isso decidi manter um pequeno registro por aqui para acompanhar meu desenvolvimento.
+
 Aqui você irá encontrar alguns códigos e rascunhos que fiz em cada disciplina e também a exposição de alguns projetos feito nas mesmas... irei destacar os que eu gostar. ;)
 
 ---
