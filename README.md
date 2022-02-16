@@ -6,6 +6,7 @@
 ### \# Esse é meu repositório para atividades do curso "Certified Tech Developer" da Digital House
 
 O [CTD](https://www.digitalhouse.com/br/acoes/certified-tech-developer) é um curso de “Tech Degree” para formação profissional na área de web development, com front e back-end. Organizado [Mercado Livre](https://www.mercadolivre.com.br/) e pela [Globant](https://www.globant.com/pt-br) ministrado pela [Digital House](https://www.digitalhouse.com/br).
+Iniciei o curso em __out/2021__ e a previsão para o término é em __set/2023__. Tem muita coisa pela frente e por isso decidi manter um pequeno registro por aqui para acompanhar meu desenvolvimento.
 Aqui você irá encontrar alguns códigos e rascunhos que fiz em cada disciplina e também a exposição de alguns projetos feito nas mesmas... irei destacar os que eu gostar. ;)
 
 ---
@@ -18,16 +19,39 @@ Aqui você irá encontrar alguns códigos e rascunhos que fiz em cada disciplina
           <th bgcolor="ffffff" colspan="4">1. Ano</th>
         </tr>
         <tr>
-          <th bgcolor="eaeaea">1.B</th>
-          <td bgcolor="eaeaea"><a href="https://github.com/brennomachado/DigitalHouse/tree/main/Prog.%20Imperativa" target="_blank">Programação  Imperativa</a> ⏳</td>
-          <td bgcolor="eaeaea"><a href="https://github.com/brennomachado/DigitalHouse/tree/main/Frontend%20I" target="_blank">Frontend I: Layout</a> ⏳</td>
-          <td bgcolor="eaeaea">Metodologias Ágeis ⏳</td>
+          <th bgcolor="d7f0d0">1.B</th>
+          <td bgcolor="d7f0d0"><a href="https://github.com/brennomachado/DigitalHouse/tree/main/Prog.%20Imperativa" target="_blank">Programação  Imperativa</a> ✅</td>
+          <td bgcolor="d7f0d0"><a href="https://github.com/brennomachado/DigitalHouse/tree/main/Frontend%20I" target="_blank">Frontend I: Layout</a> ✅</td>
+          <td bgcolor="d7f0d0">Metodologias Ágeis ✅</td>
         </tr>
         <tr>
           <th bgcolor="f1f1f1">2.B</th>
-          <td bgcolor="f1f1f1">Metodologias de Trabalho 🙈</td>
-          <td bgcolor="f1f1f1">Introdução à Informática 🙈</td>
-          <td bgcolor="f1f1f1">Base de Dados I 🙈</td>
+          <td bgcolor="f1f1f1">Metodologias de Trabalho 📚</td>
+          <td bgcolor="f1f1f1">Introdução à Informática 📚</td>
+          <td bgcolor="f1f1f1">Base de Dados I 📚</td>
+        </tr>
+        <tr>
+          <th bgcolor="f1f1f1">3.B</th>
+          <td bgcolor="f1f1f1">Forntend II: JS Front ⏳</td>
+          <td bgcolor="f1f1f1">Infra I ⏳</td>
+          <td bgcolor="f1f1f1">Teamwork & Collaboration ⏳</td>
+        </tr>
+        <tr>
+          <th bgcolor="f1f1f1">4.B</th>
+          <td bgcolor="f1f1f1">Design Thinking ⏳</td>
+          <td bgcolor="f1f1f1">Prog. Orientada a Objetos ⏳</td>
+          <td bgcolor="f1f1f1">Testing I ⏳</td>
+        </tr>
+  </table>
+
+  <table>
+        <tr>
+          <th bgcolor="ffffff" colspan="4">2. Ano: 🔒</th>
+        </tr>
+  </table>
+  <table>
+        <tr>
+          <th bgcolor="ffffff" colspan="4">3. Ano: 🔒</th>
         </tr>
   </table>
 </div>
