@@ -28,7 +28,7 @@ Aqui você irá encontrar alguns códigos e rascunhos que fiz em cada disciplina
         </tr>
         <tr>
           <th bgcolor="f1f1f1">2.B</th>
-          <td bgcolor="f1f1f1">Metodologias de Trabalho 📚</td>
+          <td bgcolor="f1f1f1">Learning Agility 📚</td>
           <td bgcolor="f1f1f1">Introdução à Informática 📚</td>
           <td bgcolor="f1f1f1">Base de Dados I 📚</td>
         </tr>
